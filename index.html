@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Marketing Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Portada con menú integrado -->
+    <header id="inicio" class="position-relative">
+        <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100" style="background-color: rgba(29, 53, 87, 0.85);">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Agencia Marketing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Imagen 1 -->
+                <div class="carousel-item active">
+                    <img src="img/portada1.jpg" class="d-block w-100" alt="Estrategias de Marketing" style="height: 600px; object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
+                        <h1 class="text-light fw-bold">Soluciones de Marketing Personalizadas</h1>
+                        <p class="text-light">Conectamos tu marca con el mundo digital de forma innovadora.</p>
+                        <a href="#servicios" class="btn btn-primary mt-3">Conoce más</a>
+                    </div>
+                </div>
+                <!-- Imagen 2 -->
+                <div class="carousel-item">
+                    <img src="img/portada2.jpg" class="d-block w-100" alt="Desarrollo Web Profesional" style="height: 600px; object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
+                        <h1 class="text-light fw-bold">Impulsamos Tu Negocio al Éxito</h1>
+                        <p class="text-light">Tu presencia digital con diseños impactantes y estrategias efectivas.</p>
+                        <a href="#contacto" class="btn btn-outline-light mt-3">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </header>
+    
+    
+
+    <!-- SERVICIOS.. -->
+
+    <section id="servicios" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-uppercase">Nuestros Servicios</h2>
+                <p class="text-muted">Soluciones a la medida para tu marca</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-share fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Gestión de Redes Sociales</h4>
+                            <p class="card-text">Potenciamos tu presencia online con estrategias efectivas en redes sociales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-code-slash fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Desarrollo Web</h4>
+                            <p class="card-text">Creamos sitios web profesionales que representan tu negocio con modernidad y funcionalidad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-camera-reels fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Producción de Videos</h4>
+                            <p class="card-text">Realizamos videos de alta calidad que captan la esencia de tu marca y atraen a tu audiencia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-palette fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Branding</h4>
+                            <p class="card-text">Diseñamos tu identidad visual para que tu marca se destaque y sea memorable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-check fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Asesoría Personalizada</h4>
+                            <p class="card-text">Te acompañamos en cada paso con asesorías específicas adaptadas a tus necesidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="bi bi-brush fs-1 mb-3 text-primary"></i>
+                            <h4 class="card-title">Diseño Gráfico</h4>
+                            <p class="card-text">Creamos diseños visuales impactantes para captar la atención de tu público objetivo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nosotros" class="py-5 text-light" style="background-color: #1D3557;">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Sobre Nosotros</h2>
+            <div class="row align-items-center">
+                <!-- Persona 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                        <div class="image-container me-4">
+                            <img src="img/integrante2.jpg" alt="Persona 1" class="img-fluid">
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">Luis Cardenas</h4>
+                            <p>Especialista en gestión de redes sociales, diseño Gráfico y producción de videos. Encargado de darle vida a tus ideas con creatividad y profesionalismo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Persona 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                        <div class="image-container me-4">
+                            <img src="img/integrante1.jpg" alt="Persona 2" class="img-fluid">
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">Jhon Mamani</h4>
+                            <p>Experto en desarrollo web, diseño Gráfico y en branding. Conecta marcas con su audiencia de manera efectiva.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nuestro Blog</h2>
+                <p class="text-muted">Descubre tendencias, consejos y novedades sobre marketing digital, branding y más.</p>
+            </div>
+            <div class="row">
+                <!-- Artículo 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="img/imagen3.jpg" class="card-img-top" alt="Artículo de Blog 1" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Estrategias de Marketing Digital</h5>
+                            <p class="card-text text-muted">Descubre cómo implementar estrategias efectivas para mejorar tu presencia en el mundo digital.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artículo 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="img/imagen4.jpg" class="card-img-top" alt="Artículo de Blog 2" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">El Poder del Branding</h5>
+                            <p class="card-text text-muted">Aprende cómo crear una marca sólida que conecte con tu audiencia y genere confianza.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artículo 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="img/imagen1.jpg" class="card-img-top" alt="Artículo de Blog 3" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Tendencias en Redes Sociales</h5>
+                            <p class="card-text text-muted">Mantente actualizado con las últimas tendencias que están dominando las redes sociales.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-primary fw-bold">Contáctanos</h2>
+            <p class="text-center mb-5">Estamos aquí para ayudarte. Completa el formulario o utiliza la información de contacto que aparece a continuación.</p>
+            
+            <div class="row">
+                <!-- Información de contacto -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Información de Contacto</h5>
+                            <p class="card-text mb-2"><i class="bi bi-telephone-fill me-2"></i> +51 987 654 321</p>
+                            <p class="card-text mb-2"><i class="bi bi-envelope-fill me-2"></i> contacto@agenciamarketing.com</p>
+                            <p class="card-text mb-2"><i class="bi bi-geo-alt-fill me-2"></i> Tarata, Tacna, Perú</p>
+                            <p class="card-text"><i class="bi bi-clock-fill me-2"></i> Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Mapa -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body p-0">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31539.76085084272!2d-70.03223578496946!3d-17.47691920593595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9158a4382f7ff5e3%3A0x705a848c896b3b3!2sTarata%2C%20Tacna%2C%20Per%C3%BA!5e0!3m2!1ses-419!2sus!4v1695756548329!5m2!1ses-419!2sus" 
+                                width="100%" 
+                                height="250" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Formulario de contacto -->
+                <div class="col-lg-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Envíanos un mensaje</h5>
+                            <form action="enviar_formulario.php" method="POST">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Información de la Agencia -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-uppercase fw-bold">Nuestra Agencia</h5>
+                    <p class="small">
+                        Somos un equipo comprometido con brindar soluciones creativas y profesionales en marketing digital, diseño gráfico y desarrollo web, impulsando tu negocio al éxito.
+                    </p>
+                    <p class="small">
+                        <i class="bi bi-geo-alt-fill me-2"></i> Tarata, Tacna, Perú
+                    </p>
+                    <p class="small">
+                        <i class="bi bi-envelope-fill me-2"></i> contacto@agenciamarketing.com
+                    </p>
+                    <p class="small">
+                        <i class="bi bi-telephone-fill me-2"></i> +51 987 654 321
+                    </p>
+                </div>
+    
+                <!-- Enlaces rápidos -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-uppercase fw-bold">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Redes sociales -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-uppercase fw-bold">Síguenos</h5>
+                    <p class="small">Conéctate con nosotros en nuestras redes sociales:</p>
+                    <div>
+                        <a href="https://facebook.com" target="_blank" class="text-white me-3">
+                            <i class="bi bi-facebook fs-4"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="text-white me-3">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="text-white me-3">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" class="text-white">
+                            <i class="bi bi-tiktok fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Derechos reservados -->
+            <div class="text-center mt-4">
+                <p class="small mb-0">&copy; 2024 Agencia de Marketing Digital. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
