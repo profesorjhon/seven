@@ -253,20 +253,20 @@
                     <div class="card shadow-sm border-0">
                         <div class="card-body">
                             <h5 class="card-title text-primary">Envíanos un mensaje</h5>
-                            <form action="enviar_formulario.php" method="POST">
+                            <form id="formContacto" action="https://formspree.io/f/mgvezron" method="POST">
                                 <div class="mb-3">
                                     <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="email" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo" required>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="mensaje" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
                             </form>
                         </div>
                     </div>
